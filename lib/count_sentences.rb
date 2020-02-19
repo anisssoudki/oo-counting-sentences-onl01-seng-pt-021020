@@ -34,7 +34,7 @@ class String
 
   def count_sentences
  
- if sentence? == true
+ if @sentence? == true
    
    return self.length
  end
