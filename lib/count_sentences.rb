@@ -36,7 +36,7 @@ class String
  
  if self == "" 
    return self.length
- end
+ 
  else
  
 end
