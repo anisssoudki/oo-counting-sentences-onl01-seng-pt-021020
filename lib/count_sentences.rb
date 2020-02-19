@@ -32,16 +32,3 @@ class String
   end
   end
 
-  def count_sentences
- 
- if self == "" 
-   return self.length
- 
- else
- 
-end
-
-
-
-
-
