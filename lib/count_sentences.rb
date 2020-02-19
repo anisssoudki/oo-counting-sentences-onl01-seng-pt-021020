@@ -35,5 +35,6 @@ class String
   def count_sentences
  count = self.end_with?". "
   count.length
+  binding.pry
   end
 end
