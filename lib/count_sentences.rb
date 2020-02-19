@@ -38,7 +38,9 @@ class String
    
    return self.length
  
- 
+ else
+   
+ end
  
 end
 
