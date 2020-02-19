@@ -34,7 +34,7 @@ class String
 
   def count_sentences
  
- if sentence? || question? || exclamation? == true
+ if (sentence? || question? || exclamation?) == true
    
    return self.length
  end
