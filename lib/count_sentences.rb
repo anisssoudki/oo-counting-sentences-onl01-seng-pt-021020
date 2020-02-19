@@ -37,7 +37,7 @@ class String
  if sentence? || question? || exclamation? == true
    
    return self.length
- 
+ end
  
  
 end
