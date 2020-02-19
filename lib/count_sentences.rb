@@ -34,7 +34,8 @@ class String
 
   def count_sentences
  
- if self.end_with?".","?" 
+ for self.each do |word|
+   if self.end_with?"." || self.end_with?"?" || self.end_with?"!" 
    
    return self.length
  
