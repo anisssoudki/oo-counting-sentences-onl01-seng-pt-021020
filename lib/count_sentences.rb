@@ -33,8 +33,16 @@ class String
   end
 
   def count_sentences
- count = self.end_with?". "
-  count.length
-  binding.pry
-  end
+ 
+ if sentence? || question? || exclamation? == true
+   
+   return self.length
+ 
+ 
+ 
 end
+
+
+
+
+
