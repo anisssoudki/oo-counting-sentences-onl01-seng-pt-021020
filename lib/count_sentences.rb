@@ -34,7 +34,7 @@ class String
 
   def count_sentences
   if
-    self.end_with?"."
+    count = self.end_with?"."
     true
     
   else 
