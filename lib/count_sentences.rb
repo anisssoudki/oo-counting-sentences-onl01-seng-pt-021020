@@ -33,6 +33,7 @@ class String
   end
 
   def count_sentences
+ count = self.end_with?"."
   if
     count = self.end_with?"."
     true
